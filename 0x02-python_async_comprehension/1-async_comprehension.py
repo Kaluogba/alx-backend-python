@@ -19,4 +19,4 @@ async def async_comprehension() -> List[float]:
         List[float]: A list containing 10 random numbers.
 
     """
-    return [i async for i in async_generator()]
+    return [i async for i in async_generator()]  # type: ignore
